@@ -8,7 +8,7 @@ os.environ["GEMINI_API_KEY"] = os.getenv("GEMINI_API_KEY")
 
 def gemini():
     response = completion(
-        model="gemini-2.0-flash-lite",
+        model="gemini/gemini-2.0-flash-lite",
         messages=[{"role": "user", "content": "Hello, how are you?"}]
     )
     print("Gemini 2.0 Response:")
