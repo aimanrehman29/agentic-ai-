@@ -1,0 +1,13 @@
+body {
+    background-color: #f0f0f0; /* light grey background */
+}
+
+.cl-chat-message.user {
+    background-color: #d1e7dd; /* greenish background for user messages */
+    color: #0f5132;
+}
+
+.cl-chat-message.assistant {
+    background-color: #cff4fc; /* light blue for assistant */
+    color: #055160;
+}
